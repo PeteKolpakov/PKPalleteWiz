@@ -20,7 +20,7 @@
                     <syncfusion:ColorPicker
                                 x:Name="ColorPicker"
                                 Grid.Column="0" Height="Auto"
-                                Color="{Binding Path=Color}"
+                                Color="{Binding Color, Mode=TwoWay}"
                                 EnableSolidToGradientSwitch="false"
                                 Width="150"/>
 
@@ -28,12 +28,12 @@
                                 x:Name="HexDisplayTextBox"
                                 Foreground="Black"
                                 Grid.Column="1"
-                                Padding="20"
+                                Padding="10"
                                 Width="150"
                                 VerticalAlignment="Center"
                                 HorizontalAlignment="Center"
                                 IsReadOnly="True"
-                                Text="{Binding Path=HexValue}"/>
+                                Text="{Binding HexValue, Mode=OneWay}"/>
 
                     <Button 
                                 Content="Copy Hex To Clipboard"
@@ -51,15 +51,17 @@
         
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
-                <MenuItem Header="New Palette"/>
-                <MenuItem Header="Open"/>
+                <MenuItem Header="New Palette" Click="OnNewPaletteButtonClicked"/>
+                <MenuItem Header="Open"        Click="OnOpenFileButtonClicked"/>
                 <Separator />
-                <MenuItem Header="Save"/>
-                <MenuItem Header="Save As"/>
+                <MenuItem Header="Save"        Click="OnSaveButtonClicked"/>
+                <MenuItem Header="Save As"     Click="OnSaveAsButtonClicked"/>
                 <Separator />
-                <MenuItem Header="Preferences"/>
+                <MenuItem Header="Preferences" Click="OnPreferencesButtonClicked"/>                
+                <Separator />
+                <MenuItem Header="Quit"        Click="OnQuitButtonClicked"/>
             </MenuItem>
-            <MenuItem Header="Help" Click="MenuItem_Click"/>
+            <MenuItem Header="Help"            Click="OnHelpButtonClicked"/>
         </Menu>
 
         <Grid>
@@ -74,9 +76,7 @@
 
             <Border  Margin="5">
                 <ListBox x:Name="PalleteDisplay" ItemTemplate="{StaticResource PaletteItem}">
-
-
-                        <ListBox.ItemContainerStyle>
+                    <ListBox.ItemContainerStyle>
                         <Style TargetType="{x:Type ListBoxItem}">
                             <Setter Property="Background" Value="Gray"/>
                             <Style.Triggers>
@@ -84,7 +84,6 @@
                             </Style.Triggers>
                         </Style>
                     </ListBox.ItemContainerStyle>
-                    
                 </ListBox>
 
             </Border>

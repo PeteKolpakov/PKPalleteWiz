@@ -8,10 +8,10 @@ namespace PKPaletteWiz
     public class PaletteEntry : INotifyPropertyChanged
     {
         private Color _color = Colors.AliceBlue;
-        private string _hexValue = Colors.White.ToString();
+        
 
         public Color Color { get => _color; set => ChangeProperty(ref _color, value); }     
-        public string HexValue { get => _color.ToString(); set => ChangeProperty(ref _hexValue, value); }
+        public string HexValue { get => _color.ToString(); }
         
         
         [field: NonSerialized]
