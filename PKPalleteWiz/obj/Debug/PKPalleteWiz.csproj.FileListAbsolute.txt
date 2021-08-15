@@ -1,0 +1,15 @@
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.csprojAssemblyReference.cache
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\App.g.cs
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz_MarkupCompile.cache
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\MainWindow.g.cs
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz_MarkupCompile.lref
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\bin\Debug\PKPalleteWiz.exe.config
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\bin\Debug\PKPalleteWiz.exe
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\bin\Debug\PKPalleteWiz.pdb
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\MainWindow.baml
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.g.resources
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.Properties.Resources.resources
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.csproj.GenerateResource.cache
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.csproj.CoreCompileInputs.cache
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.exe
+C:\Users\Pete K\source\repos\PKPalleteWiz\PKPalleteWiz\obj\Debug\PKPalleteWiz.pdb
